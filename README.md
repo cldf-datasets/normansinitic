@@ -9,8 +9,9 @@ Data is provided in CLDF format.
 ```
 Path            Type              Rows
 --------------  --------------  ------
-values.csv      ValueTable         882
-parameters.csv  ParameterTable      20
-languages.csv   LanguageTable       42
+values.csv      ValueTable         165
+parameters.csv  ParameterTable      15
+languages.csv   LanguageTable       11
 sources.bib     Sources              1
+
 ```
