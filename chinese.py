@@ -1,5 +1,8 @@
 from pycldf import StructureDataset, Source
+from csvw.metadata import TableGroup
 import json
+from lingpy import *
+from lingpy.strings import write_nexus
 
 # load languages
 with open('raw/languages.json') as f:
@@ -57,3 +60,6 @@ ds.write(ValueTable=formtable, ParameterTable=parametertable,
 
 ds.write_metadata()
 ds.write_sources()
+
+
+
