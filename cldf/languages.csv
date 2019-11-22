@@ -1,12 +1,17 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,SubGroup,DialectGroup,ChineseName
 Beijing,Beijing,beij1234,Beijing Mandarin,cmn,Eurasia,39.9385466,116.1172766,Sino-Tibetan,Sinitic,Mandarin,北京
-Suzhou,Suzhou,suzh1234,Suzhou,wuu,Eurasia,31.3280439,120.364116,Sino-Tibetan,Sinitic,Wu,苏州
-Nanchang,Nanchang,nanc1254,Nanchang,gan,Eurasia,28.706609,115.857468,Sino-Tibetan,Sinitic,Gan,南昌
-Meixian,Meixian,yuet1238,Meixian,hak,Eurasia,24.3522958,115.8903375,Sino-Tibetan,Sinitic,Hakka,梅县
+Changsha,Changsha,,,,,,,,,,
+Common_Chinese,Common_Chinese,comm1247,Common Chinese,,Eurasia,32.043889,118.778611,Sino-Tibetan,Sinitic,Middle_Chinese,
 Guangzhou,Guangzhou,guan1279,Guangzhou,yue,Eurasia,23.1253503,112.9476548,Sino-Tibetan,Sinitic,Yue,广州
 Heping,Heping,shao1235,Shaowu,mnp,Eurasia,27.112778,117.297222,Sino-Tibetan,Sinitic,Min,和平
-Zhenqian,Zhenqian,zhen1242,Zhenghe,mnp,Eurasia,25.2474987,119.2778522,Sino-Tibetan,Sinitic,Min,鎮前
+Jianchuan,Jianchuan,jian1239,Jianchuan,bca,Eurasia,26.538056,99.910000,Sino-Tibetan,Bai,Central Bai,剑川
 Jiangshan,Jiangshan,long1386,Jiangshan,wuu,Eurasia,28.5629681,118.3206425,Sino-Tibetan,Sinitic,Wu,江山
 Jiangyong,Jiangyong,jian1243,Jiangyong,hsn,Eurasia,25.273,111.343,Sino-Tibetan,Sinitic,Xiang,江永
-Common_Chinese,Common_Chinese,comm1247,Common Chinese,,Eurasia,32.043889,118.778611,Sino-Tibetan,Sinitic,Middle_Chinese,
-Jianchuan,Jianchuan,jian1239,Jianchuan,bca,Eurasia,26.538056,99.910000,Sino-Tibetan,Bai,Central Bai,剑川
+Meixian,Meixian,yuet1238,Meixian,hak,Eurasia,24.3522958,115.8903375,Sino-Tibetan,Sinitic,Hakka,梅县
+Nanchang,Nanchang,nanc1254,Nanchang,gan,Eurasia,28.706609,115.857468,Sino-Tibetan,Sinitic,Gan,南昌
+Shuangfeng,Shuangfeng,shua1258,Shuangfeng,hsn,Eurasia,27.4569781,111.916486,Sino-Tibetan,Sinitic,Xiang,双峰
+Suzhou,Suzhou,suzh1234,Suzhou,wuu,Eurasia,31.3280439,120.364116,Sino-Tibetan,Sinitic,Wu,苏州
+Taiyuan,Taiyuan,taiy1243,Taiyuan,cjy,Eurasia,37.8632119,112.4024883,Sino-Tibetan,Sinitic,Jin,太原
+Wenzhou,Wenzhou,ouji1238,Wenzhou,,Eurasia,28.005496,120.701179,Sino-Tibetan,Sinitic,Wu,温州
+Yangzhou,Yangzhou,yang1306,Yangzhou,,Eurasia,32.4171449,119.209227,Sino-Tibetan,Sinitic,Mandarin,揚州
+Zhenqian,Zhenqian,zhen1242,Zhenghe,mnp,Eurasia,25.2474987,119.2778522,Sino-Tibetan,Sinitic,Min,鎮前

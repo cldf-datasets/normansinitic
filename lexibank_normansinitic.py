@@ -67,6 +67,7 @@ class Dataset(BaseDataset):
 
         with self.cldf_writer(args, cldf_spec='structure', clean=False) as writer:
             writer.cldf.add_component(language_table)
+            writer.objects['LanguageTable'] = self.languages
 
             pids = set()
             for vals in self.raw_dir.read_csv('structures.tsv', delimiter='\t', dicts=True):
