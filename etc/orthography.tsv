@@ -1,0 +1,151 @@
+Grapheme	IPA	EXAMPLES	LANGUAGES	FREQUENCY	CODEPOINTS
+$	NULL				
+^	NULL				
+^*	NULL	*dzi⁶, *pho⁵	Common_Chinese	31	U+005e U+002a
+^*h	h	*hiot⁷, *huo³	Common_Chinese	2	U+005e U+002a U+0068
+^*hh	ɦ	*hha⁴	Common_Chinese	1	U+005e U+002a U+0068 U+0068
+^*s	s	*si⁵, *sam¹	Common_Chinese	3	U+005e U+002a U+0073
+^*sh	ʂ	*shiou³, *shyi³	Common_Chinese	3	U+005e U+002a U+0073 U+0068
+^b	b	bɐʔ⁸, baŋ⁶	Suzhou, Jiangshan	5	U+005e U+0062
+^d	d	dzɯə⁶	Jiangshan	2	U+005e U+0064
+^dʑ	dʑ	dʑin⁶, dʑiaŋ⁴	Jiangshan, Suzhou	4	U+005e U+0064 U+0291
+^f	f	fo³, fɯə⁴	Jiangyong, Guangzhou, Heping, Nanchang, Meixian	6	U+005e U+0066
+^g	g	gɯ⁶, gœ̃⁴	Jiangshan	2	U+005e U+0067
+^h	h	huaiŋ¹, hn̍ʔ⁴	Heping, Zhenqian, Guangzhou, Meixian, Jiangyong, Nanchang, Suzhou	18	U+005e U+0068
+^i	i	iɕu³	Heping	1	U+005e U+0069
+^ie	i/j e	ie¹	Jiangyong	1	U+005e U+0069 U+0065
+^io	i/j o	ioŋ⁵	Zhenqian	1	U+005e U+0069 U+006f
+^iε	i/j ε	iε¹	Jiangshan	1	U+005e U+0069 U+03b5
+^j	j	jyt⁸, ji⁶	Guangzhou	2	U+005e U+006a
+^k	k	kon¹, kaʔ⁷	Jianchuan, Guangzhou, Zhenqian, Meixian, Jiangshan, Heping, Jiangyong, Nanchang, Suzhou, Beijing	29	U+005e U+006b
+^kʰ	kʰ	kʰo⁵, kʰiu⁵	Heping, Meixian, Jiangshan, Guangzhou, Zhenqian	10	U+005e U+006b U+02b0
+^l	l	liu², li²	Jiangyong, Jiangshan, Guangzhou, Heping, Nanchang, Zhenqian, Meixian, Beijing, Suzhou	20	U+005e U+006c
+^n	n	ni⁶, niu²	Heping, Zhenqian, Meixian, Suzhou, Jiangshan, Jiangyong, Jianchuan, Nanchang, Beijing	13	U+005e U+006e
+^p	p	pon⁵, pe⁸	Jiangyong, Jianchuan, Guangzhou, Zhenqian, Beijing, Jiangshan, Heping, Nanchang, Meixian, Suzhou	22	U+005e U+0070
+^pʰ	pʰ	pʰo⁵, pʰi²	Nanchang, Meixian, Heping, Jiangshan, Guangzhou, Jianchuan, Zhenqian, Beijing, Jiangyong, Suzhou	23	U+005e U+0070 U+02b0
+^s	s	si⁵, sui³	Meixian, Guangzhou, Nanchang, Jiangshan, Zhenqian, Suzhou, Jianchuan, Heping, Jiangyong, Beijing	62	U+005e U+0073
+^t	t	ty⁷, teuŋ³	Zhenqian, Jiangshan, Heping, Guangzhou, Jianchuan, Nanchang, Meixian, Beijing, Suzhou	14	U+005e U+0074
+^ts	ts	tsau³, tsuk⁷	Jianchuan, Zhenqian, Guangzhou, Jiangyong, Beijing, Nanchang, Meixian, Suzhou, Jiangshan	31	U+005e U+0074 U+0073
+^tsʰ	tsʰ	tsʰoŋ², tsʰɔt⁷	Meixian, Guangzhou, Nanchang, Zhenqian, Jiangshan, Heping, Jiangyong, Suzhou	24	U+005e U+0074 U+0073 U+02b0
+^tɕ	tɕ	tɕi¹, tɕiaŋ⁴	Jiangyong, Beijing, Jianchuan, Nanchang, Suzhou	12	U+005e U+0074 U+0255
+^tɕʰ	tɕʰ	tɕʰi⁵, tɕʰy⁵	Nanchang, Jiangshan, Heping, Jianchuan, Beijing, Suzhou	17	U+005e U+0074 U+0255 U+02b0
+^tʂ	ʈʂ	tʂu², tʂuŋ³	Beijing	2	U+005e U+0074 U+0282
+^tʂʰ	ʈʂʰ	tʂʰaŋ², tʂʰu¹	Beijing	2	U+005e U+0074 U+0282 U+02b0
+^tʰ	tʰ	tʰiεn¹, tʰiaʔ⁴	Heping, Jiangshan, Guangzhou, Jianchuan, Jiangyong, Nanchang, Zhenqian, Meixian, Beijing, Suzhou	15	U+005e U+0074 U+02b0
+^v	v	væʔ⁴	Heping	1	U+005e U+0076
+^x	x	xuo³, xɛ̃²	Jiangshan, Jianchuan, Beijing	5	U+005e U+0078
+^yi	y/ɥ i	yi³	Jiangshan	1	U+005e U+0079 U+0069
+^yε	y/ɥ ε	yε⁵	Beijing	1	U+005e U+0079 U+03b5
+^z	z	zɿ⁵, zɐʔ⁸	Suzhou	9	U+005e U+007a
+^ŋ	ŋ	ŋua⁵, ŋou²	Jianchuan, Jiangshan, Guangzhou, Jiangyong, Zhenqian, Suzhou	9	U+005e U+014b
+^ɔ	ɔ	ɔ⁴	Jiangshan	1	U+005e U+0254
+^ɕ	ɕ	ɕyɤʔ⁷, ɕiou³	Jiangyong, Beijing, Heping, Nanchang, Jianchuan, Suzhou	20	U+005e U+0255
+^ə	ə	ər⁵, ə⁶	Beijing, Nanchang	2	U+005e U+0259
+^ɣ	ɣ	ɣɯ⁴	Jianchuan	1	U+005e U+0263
+^ɦ	ɦ	ɦo⁶	Suzhou	1	U+005e U+0266
+^ɲ	ɲ	ɲyat⁸, ɲy⁶	Meixian, Nanchang, Jiangyong	3	U+005e U+0272
+^ʂ	ʂ	ʂʅ², ʂui³	Beijing	7	U+005e U+0282
+_	NULL	tsɯə ⁶, tεn ³	Nanchang, Jiangyong	3	U+005f
+a	a	sam¹, san¹	Meixian, Jiangshan, Jiangyong, Nanchang, Zhenqian, Beijing, Guangzhou, Heping, Common_Chinese, Suzhou	45	U+0061
+ai	ai	pʰai⁵, lai²	Beijing, Jiangshan, Heping, Jiangyong, Nanchang, Zhenqian	7	U+0061 U+0069
+au	au	tsau³, tauŋ⁹	Jiangyong, Nanchang, Zhenqian, Meixian, Beijing	5	U+0061 U+0075
+b	b	*bi², *biaŋ⁶	Common_Chinese	3	U+0062
+c	ʈʂ	*ciuk⁷	Common_Chinese	1	U+0063
+ch	ʈʂʰ	*chiut⁷	Common_Chinese	1	U+0063 U+0068
+d	d	*dzi⁶, *dzuo⁴	Common_Chinese	2	U+0064
+e	e	le², pe⁸	Jianchuan, Suzhou, Heping, Common_Chinese, Zhenqian	10	U+0065
+ei	ei	pʰei², sei⁵	Guangzhou, Jiangshan, Heping	4	U+0065 U+0069
+eu	eu	teuŋ³	Zhenqian	1	U+0065 U+0075
+g	g	*gin⁴, *giou⁶	Common_Chinese	2	U+0067
+i	i	tɕi¹, si⁵	Common_Chinese, Heping, Zhenqian, Meixian, Beijing, Suzhou, Jiangshan, Nanchang, Guangzhou, Jianchuan, Jiangyong	52	U+0069
+ia	i/j a	tɕiaŋ⁴, hiat⁷	Common_Chinese, Jiangyong, Nanchang, Meixian, Beijing, Jiangshan, Heping	15	U+0069 U+0061
+iai	i/j ai	*kiai¹	Common_Chinese	1	U+0069 U+0061 U+0069
+iau	i/j au	siau⁵, *siau⁸	Jiangshan, Common_Chinese, Meixian, Beijing	5	U+0069 U+0061 U+0075
+ie	i/j e	*khie⁵, tɕie⁴	Jiangyong, Common_Chinese	3	U+0069 U+0065
+ieu	i/j eu	sieu⁵	Heping	1	U+0069 U+0065 U+0075
+io	i/j o	sio⁵, ɕioʔ⁴	Common_Chinese, Zhenqian, Heping, Jiangyong	10	U+0069 U+006f
+iou	i/j ou	liou², tɕiou⁶	Common_Chinese, Jiangyong	8	U+0069 U+006f U+0075
+iu	i/j u	liu², niu²	Zhenqian, Meixian, Common_Chinese, Nanchang, Beijing, Jiangshan, Guangzhou, Heping, Jiangyong	21	U+0069 U+0075
+iæ	i/j æ	siæ⁵	Suzhou	1	U+0069 U+00e6
+iɪ	iɪ	ziɪʔ⁸, tɕʰiɪʔ⁷	Suzhou	3	U+0069 U+026a
+iʏ	i/j ʏ	dʑiʏ⁶	Suzhou	1	U+0069 U+028f
+iε	i/j ε	tʰiεn¹, siεʔ⁸	Jiangshan, Beijing, Nanchang, Meixian	9	U+0069 U+03b5
+iεu	i/j εu	ɕiεu⁵	Nanchang	1	U+0069 U+03b5 U+0075
+j	j	*jioŋ², *jiuŋ⁴	Common_Chinese	2	U+006a
+ji	j
+k	k	tsuk⁷, pʰak⁸	Common_Chinese, Guangzhou, Nanchang, Meixian	18	U+006b
+kh	kʰ	*khie⁵	Common_Chinese	1	U+006b U+0068
+l	l	*loi², *liou²	Common_Chinese	2	U+006c
+m	m	sam¹, *sam¹	Heping, Common_Chinese, Meixian, Guangzhou	10	U+006d
+n	n	tʰiεn¹, kon¹	Nanchang, Beijing, Heping, Meixian, Guangzhou, Common_Chinese, Jiangshan, Suzhou	37	U+006e
+nh	ɳ	*nhi⁶	Common_Chinese	1	U+006e U+0068
+n̍	n̩	hn̍ʔ⁴	Heping	1	U+006e U+030d
+o	o	pʰo⁵, kon¹	Nanchang, Meixian, Heping, Guangzhou, Jianchuan, Zhenqian, Common_Chinese, Suzhou, Jiangyong	37	U+006f
+oi	oi	*loi², loi²	Common_Chinese, Meixian, Heping	3	U+006f U+0069
+ou	ou	ŋou², tsou³	Common_Chinese, Beijing, Guangzhou, Jiangyong	4	U+006f U+0075
+p	p	kap⁷, *zhip⁸	Common_Chinese, Meixian, Guangzhou	7	U+0070
+ph	pʰ	*pho⁵	Common_Chinese	1	U+0070 U+0068
+r	r	ər⁵	Beijing	1	U+0072
+t	t	tsʰɔt⁷, *ŋiot⁸	Nanchang, Common_Chinese, Meixian, Guangzhou	20	U+0074
+th	tʰ	*thian¹	Common_Chinese	1	U+0074 U+0068
+ts	ts	*tsou³	Common_Chinese	1	U+0074 U+0073
+tsh	tsʰ	*tshit⁷	Common_Chinese	1	U+0074 U+0073 U+0068
+u	u	tsuk⁷, pʰu⁵	Meixian, Beijing, Guangzhou, Jiangyong, Jianchuan, Nanchang, Jiangshan, Heping, Suzhou	22	U+0075
+ua	u/w a	ŋua⁵, kʰuanʔ⁴	Jianchuan, Zhenqian, Heping	4	U+0075 U+0061
+uai	u/w ai	huaiŋ¹, huai³	Zhenqian	4	U+0075 U+0061 U+0069
+ue	u/w e	tsʰue³, hue³	Zhenqian	3	U+0075 U+0065
+uei	u/w ei	xuei³, kʰuei³	Jiangshan, Heping	2	U+0075 U+0065 U+0069
+ui	u/w i	sui³, ʂui³	Heping, Jianchuan, Nanchang, Zhenqian, Meixian, Beijing	9	U+0075 U+0069
+uo	u/w o	tsuo⁵, xuo³	Beijing, Common_Chinese, Jiangshan	6	U+0075 U+006f
+uæ	u/w æ	kʰuæ⁵	Heping	1	U+0075 U+00e6
+uə	u/w ə	kuə⁷	Jiangyong	1	U+0075 U+0259
+v	v̩	kv⁷	Jianchuan	1	U+0076
+y	y	tɕʰy⁵, sy⁶	Heping, Guangzhou, Jiangyong, Common_Chinese, Nanchang, Zhenqian, Beijing	13	U+0079
+ya	y/ɥ a	ɲyat⁸, ɕya⁷	Jiangyong, Meixian	3	U+0079 U+0061
+ye	y/ɥ e	tɕʰye³, kyeŋ⁵	Zhenqian, Jiangshan	3	U+0079 U+0065
+yi	y/ɥ i	*shyi³	Common_Chinese	1	U+0079 U+0069
+yo	y/ɥ o	ɲyot⁸, ɕyot⁷	Nanchang	2	U+0079 U+006f
+yu	y/ɥ u	ɕyu⁶	Jiangyong	1	U+0079 U+0075
+yə	y/ɥ ə	ɕyə⁶	Jiangyong	1	U+0079 U+0259
+yɤ	y/ɥ ɤ	ɕyɤʔ⁷	Suzhou	1	U+0079 U+0264
+yε	y/ɥ ε	xyεʔ⁷, tɕʰyεʔ⁷	Jiangshan	2	U+0079 U+03b5
+z	z	dzɯə⁶, *dzi⁶	Common_Chinese, Jiangshan	5	U+007a
+zh	ʐ	*zhioŋ⁴, *zhip⁸	Common_Chinese	4	U+007a U+0068
+²$	²	liu², pʰi²	Beijing, Jiangshan, Guangzhou, Heping, Jiangyong, Common_Chinese, Nanchang, Meixian, Suzhou, Jianchuan, Zhenqian	58	U+00b2 U+0024
+³$	³	tsau³, sui³	Zhenqian, Beijing, Jianchuan, Jiangshan, Guangzhou, Jiangyong, Common_Chinese, Nanchang, Meixian, Suzhou, Heping	64	U+00b3 U+0024
+¹$	¹	tɕi¹, tʰiεn¹	Jianchuan, Meixian, Beijing, Jiangshan, Guangzhou, Heping, Jiangyong, Common_Chinese, Nanchang, Zhenqian, Suzhou	66	U+00b9 U+0024
+ã	ã	sã², kã²	Jianchuan	2	U+00e3
+æ	æ	fæ⁷, hæn¹	Heping, Suzhou	4	U+00e6
+õ	õ	tsõ¹, tsõ⁸	Jianchuan	2	U+00f5
+ø	ø	søʔ⁸, pø⁵	Jiangshan, Jiangyong, Suzhou	5	U+00f8
+ø̃	ø̃	kø̃¹	Suzhou	1	U+00f8 U+0303
+ĩ	ĩ	tɕĩ¹	Jianchuan	1	U+0129
+ŋ	ŋ	soŋ¹, saŋ¹	Zhenqian, Jiangyong, Common_Chinese, Jiangshan, Guangzhou, Beijing, Nanchang, Meixian, Suzhou, Heping	55	U+014b
+œ	œ	lœ², sœŋ⁴	Guangzhou, Zhenqian	3	U+0153
+œy	œy	sœy³, hœy⁵	Guangzhou	2	U+0153 U+0079
+œ̃	œ̃	tœ̃³, gœ̃⁴	Jiangshan	3	U+0153 U+0303
+ɐ	ɐ	zɐʔ⁸, sɐm¹	Guangzhou, Suzhou	8	U+0250
+ɐi	ɐi	lɐi², kɐi¹	Guangzhou	2	U+0250 U+0069
+ɐu	ɐu	sɐu³, ŋɐu²	Guangzhou	4	U+0250 U+0075
+ɔ	ɔ	tsʰɔt⁷, kɔŋ¹	Jiangshan, Guangzhou	2	U+0254
+ɕ	ɕ	iɕu³	Heping	1	U+0255
+ə	ə	sən¹, tsʰət⁷	Nanchang, Meixian, Beijing, Suzhou, Jiangshan, Jiangyong	11	U+0259
+əu	əu	həu³, zəu⁶	Suzhou, Nanchang	3	U+0259 U+0075
+əɯ	əɯ	tsəɯ⁴	Jiangyong	1	U+0259 U+026f
+ɛ̃	ɛ̃	pɛ̃³, sɛ̃¹	Jianchuan	3	U+025b U+0303
+ɤ	ɤ	tsʰɤʔ⁷, ŋɤʔ⁸	Suzhou	3	U+0264
+ɥ	ɥ	sɥ³, zɥ⁶	Suzhou	2	U+0265
+ɯ	ɯ	tsɯ³, ŋɯ⁸	Jianchuan, Jiangshan	10	U+026f
+ɯə	ɯə	dzɯə⁶, kʰɯə⁵	Jiangshan, Jiangyong	8	U+026f U+0259
+ɿ	ɿ	sɿ⁵, zɿ⁵	Beijing, Suzhou, Nanchang, Meixian	7	U+027f
+ʅ	ʅ	ʂʅ²	Beijing	2	U+0285
+ʏ	ʏ	nʏ², lʏ²	Suzhou	3	U+028f
+ʔ	ʔ	kaʔ⁷, siεʔ⁸	Heping, Jiangshan, Suzhou, Nanchang	32	U+0294
+ε	ε	kε⁴, tsε⁷	Jianchuan, Guangzhou, Meixian, Nanchang	11	U+03b5
+ṽ	ṽ̩	tsṽ¹	Jianchuan	1	U+1e7d
+⁴$	⁴	kε⁴, pan⁴	Heping, Jiangshan, Guangzhou, Jiangyong, Common_Chinese, Jianchuan, Beijing, Meixian	38	U+2074 U+0024
+⁵$	⁵	si⁵, sɿ⁵	Beijing, Zhenqian, Meixian, Heping, Suzhou, Jiangshan, Guangzhou, Jianchuan, Jiangyong, Nanchang, Common_Chinese	75	U+2075 U+0024
+⁶$	⁶/¹¹	ni⁶, dzɯə⁶	Jiangyong, Nanchang, Zhenqian, Suzhou, Jiangshan, Guangzhou, Common_Chinese, Heping	56	U+2076 U+0024
+⁷$	⁷/²²	tsuk⁷, kaʔ⁷	Jiangshan, Guangzhou, Heping, Jiangyong, Common_Chinese, Nanchang, Meixian, Suzhou, Jianchuan	44	U+2077 U+0024
+⁸$	⁸/³³	pʰak⁸, siεʔ⁸	Jianchuan, Common_Chinese, Jiangshan, Guangzhou, Nanchang, Meixian, Suzhou	37	U+2078 U+0024
+⁹$	⁹/⁴⁴	tauŋ⁹, tsi⁹	Zhenqian	2	U+2079 U+0024

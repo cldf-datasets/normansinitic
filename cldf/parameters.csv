@@ -1,16 +1,41 @@
-ID,Name,Description
-1,third-person-pronoun,"The third person pronoun is tā, or cognate to it."
-2,subordinative-particle-de,"The subordinative particle is de, or cognate to it."
-3,copula-shi,"The copula is shì, or cognate to it."
-4,velars-palatalize,Velars palatalize before high front vowels.
-5,non-nasal-initial-ran-re,Words like rǎn ‘dye’ and rè ‘hot’ have a non-nasal initial.
-6,non-nasal-initial-wei-wen,Words like wěi ‘tail’ and wén ‘mosquito’ have a non-nasal initial.
-7,qu-tone-no-register,The qù tone lacks a register distinction.
-8,to-wear-is-chuan,"The verb ‘to wear (clothing)’ is chuān, or cognate to it."
-9,cooking-pot-is-guo,"The word for ‘(cooking) pot’ is guō, or cognate to it."
-10,house-is-fang,"The word for ‘house’ is fáng(zi), or cognate to it."
-11,son-is-er,"The word for ‘son’ is ér(zi), or cognate to it."
-12,stand-is-zhan,"The word for ‘stand’ is zhàn, or cognate to it."
-13,rain-is-xia,"The verb in the expression ‘to rain’ is xià, or cognate to it."
-14,walk-is-zou,"The verb for ‘to walk’ is zǒu, or cognate to it."
-15,gender-animals-prefixed,The gender marker for animals is prefixed.
+ID,Name,Concepticon_ID,Concepticon_Gloss,Chinese_Gloss
+1_sky,sky,1732,SKY,天
+2_three,three,492,THREE,三
+3_chicken,chicken,1318,CHICKEN,鸡
+4_liver,liver,1224,LIVER,肝
+5_deep,deep,1593,DEEP,深
+6_skin,skin,763,SKIN,皮
+7_come,come,1446,COME,来
+8_flow,flow,2003,FLOW,留
+9_cow,cow,1007,COW,牛
+10_long,long,1203,LONG,长
+11_water,water,948,WATER,水
+12_fire,fire,221,FIRE,火
+13_hand,hand,1277,HAND,手
+14_early,early,672,EARLY,早
+15_wait,wait,1590,WAIT (FOR),等
+16_rise,rise,705,GO UP (ASCEND),上
+17_godown,go down,2014,GO DOWN (DESCEND),下
+18_heavy,heavy,1210,HEAVY,重
+19_sit,sit,1416,SIT,坐
+20_near,near,1942,NEAR,近
+21_go,go,695,GO,去
+22_broken,broken,3191,BROKEN (SHATTERED),破
+23_four,four,1500,FOUR,四
+24_half,half,816,HALF,半
+25_laugh,laugh,1355,LAUGH,笑
+26_sick,sick,1847,SICK,病
+27_graph,graph,1024,CHARACTER,字
+28_old,old,1229,OLD,老
+29_tree,tree,906,TREE,树
+30_two,two,1498,TWO,二
+31_blood,blood,946,BLOOD,血
+32_seven,seven,1704,SEVEN,七
+33_bamboo,bamboo,1927,BAMBOO,竹
+34_goout,go out,1107,GO OUT,出
+35_nail,nail,1896,FINGERNAIL OR TOENAIL,甲
+36_month,month,1370,MONTH,月
+37_white,white,1335,WHITE,白
+38_ten,ten,1515,TEN,十
+39_stone,stone,857,STONE,石
+40_mat,mat,195,MAT,席

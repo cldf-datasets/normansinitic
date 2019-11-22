@@ -2,5 +2,6 @@
     "url": "https://github.com/grambank/normansinitic/",
     "citation": "Norman, J. (2003): Chinese dialects. Phonology. In: Thurgood, G. & LaPolla, R.: The Sino-Tibetan Languages. Routledge: London and New York. 72-83.",
     "license": "Apache 2.0",
-    "title": "Structure Dataset on Chinese Dialects"
+		"conceptlist": "Norman-2003-40",
+    "title": "Structure and Lexical Dataset on Chinese Dialects"
 }
