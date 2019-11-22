@@ -1,6 +1,7 @@
 from csvw.metadata import TableGroup
 from lingpy import util
 from lingpy.convert.html import template_path
+from pathlib import Path
 
 # receive the template path from lingpy for splitstree
 tpath = util.Path(template_path('splitstree.nex'))
@@ -9,11 +10,12 @@ if tpath.exists:
 else:  # pragma: no cover
     raise IOError("Unknown template %s" % template)
 
-tbg = TableGroup.from_file('cldf/StructureDataset-metadata.json')
+tbg = TableGroup.from_file(Path('cldf',
+    'StructureDataset-metadata.json').as_posix())
 taxa = {t['ID']: (i, t['Name']) for i, t in
         enumerate(tbg.tabledict['languages.csv'])}
 params = {t['ID']: (i, t['Name']) for i, t in
-        enumerate(tbg.tabledict['parameters.csv'])}
+        enumerate(tbg.tabledict['features.csv'])}
 matrix = [[0 for p in params] for t in taxa]
 for row in tbg.tabledict['values.csv']:
     tidx, tname = taxa[row['Language_ID']]
