@@ -1,6 +1,7 @@
 from csvw.metadata import TableGroup
-from lingpy import util
+from lingpy import util, LexStat
 from lingpy.convert.html import template_path
+from lingpy.convert.strings import write_nexus
 from pathlib import Path
 
 # receive the template path from lingpy for splitstree
@@ -34,7 +35,7 @@ for i, line in enumerate(matrix):
         x in alpha])[:11])
     matrix_string += ''.join([str(x) for x in line])+'\n'
 
-with open('chinese.nex', 'w') as f:
+with open('chinese-structure.nex', 'w') as f:
     f.write(_template.format(
         matrix=matrix_string, 
         ntax=len(tax_list),
@@ -43,4 +44,8 @@ with open('chinese.nex', 'w') as f:
         gap='-',
         missing='?'
         ))
-    
+
+lex = LexStat.from_cldf(Path('cldf', 'cldf-metadata.json').as_posix())
+lex.cluster(method='sca', threshold=0.45, ref='cogid')
+write_nexus(lex, mode='splitstree', filename='chinese-lexemes.nex')
+
