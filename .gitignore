@@ -1,5 +1,7 @@
 # Byte-compiled / optimized / DLL files
+.gitignore
 __pycache__/
+.gitattributes
 *.py[cod]
 *$py.class
 
