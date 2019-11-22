@@ -1,12 +1,12 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,SubGroup,DialectGroup,ChineseName
-Beijing,,beij1234,Beijing Mandarin,cmn,,39.9385466,116.1172766,Sino-Tibetan,Sinitic,Mandarin,北京
-Suzhou,,suzh1234,Suzhou,wuu,,31.3280439,120.364116,Sino-Tibetan,Sinitic,Wu,苏州
-Nanchang,,nanc1254,Nanchang,gan,,28.706609,115.857468,Sino-Tibetan,Sinitic,Gan,南昌
-Meixian,,yuet1238,Meixian,hak,Eurasia,24.3522958,115.8903375,Sino-Tibetan,Sinitic,Hakka,梅县
-Guangzhou,,guan1279,Guangzhou,yue,,23.1253503,112.9476548,Sino-Tibetan,Sinitic,Yue,广州
-Heping,,shao1235,Shaowu,mnp,,27.112778,117.297222,Sino-Tibetan,Sinitic,Min,和平
-Zhenqian,,zhen1242,Zhenghe,mnp,,25.2474987,119.2778522,Sino-Tibetan,Sinitic,Min,鎮前
-Jiangshan,,long1386,Jiangshan,wuu,Eurasia,28.5629681,118.3206425,Sino-Tibetan,Sinitic,Wu,江山
-Jiangyong,,jian1243,Jiangyong,hsn,,,,Sino-Tibetan,Sinitic,Xiang,
-Common_Chinese,,comm1247,Common Chinese,,,,,Sino-Tibetan,Sinitic,Middle_Chinese,
-Jianchuan,,jian1239,Jianchuan,bca,Eurasia,26.538056,99.910000,Sino-Tibetan,Sinitic,Central,剑川
+Beijing,Beijing,beij1234,Beijing Mandarin,cmn,Eurasia,39.9385466,116.1172766,Sino-Tibetan,Sinitic,Mandarin,北京
+Suzhou,Suzhou,suzh1234,Suzhou,wuu,Eurasia,31.3280439,120.364116,Sino-Tibetan,Sinitic,Wu,苏州
+Nanchang,Nanchang,nanc1254,Nanchang,gan,Eurasia,28.706609,115.857468,Sino-Tibetan,Sinitic,Gan,南昌
+Meixian,Meixian,yuet1238,Meixian,hak,Eurasia,24.3522958,115.8903375,Sino-Tibetan,Sinitic,Hakka,梅县
+Guangzhou,Guangzhou,guan1279,Guangzhou,yue,Eurasia,23.1253503,112.9476548,Sino-Tibetan,Sinitic,Yue,广州
+Heping,Heping,shao1235,Shaowu,mnp,Eurasia,27.112778,117.297222,Sino-Tibetan,Sinitic,Min,和平
+Zhenqian,Zhenqian,zhen1242,Zhenghe,mnp,Eurasia,25.2474987,119.2778522,Sino-Tibetan,Sinitic,Min,鎮前
+Jiangshan,Jiangshan,long1386,Jiangshan,wuu,Eurasia,28.5629681,118.3206425,Sino-Tibetan,Sinitic,Wu,江山
+Jiangyong,Jiangyong,jian1243,Jiangyong,hsn,Eurasia,25.273,111.343,Sino-Tibetan,Sinitic,Xiang,江永
+Common_Chinese,Common_Chinese,comm1247,Common Chinese,,Eurasia,32.043889,118.778611,Sino-Tibetan,Sinitic,Middle_Chinese,
+Jianchuan,Jianchuan,jian1239,Jianchuan,bca,Eurasia,26.538056,99.910000,Sino-Tibetan,Bai,Central Bai,剑川

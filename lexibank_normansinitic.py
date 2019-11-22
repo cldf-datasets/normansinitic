@@ -70,7 +70,7 @@ class Dataset(BaseDataset):
 
             pids = set()
             for vals in self.raw_dir.read_csv('structures.tsv', delimiter='\t', dicts=True):
-                vidx, lidx, pidx = vals['ID'], vals['DOCULECT_IN_SOURCE'], vals['STRUCTURE_ID']
+                vidx, lidx, pidx = vals['ID'], vals['DOCULECT'], vals['STRUCTURE_ID']
                 idx = '{0}-{1}-{2}'.format(lidx, pidx, vidx)
                 if not pidx in pids:
                     writer.objects['ParameterTable'].append({

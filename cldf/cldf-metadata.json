@@ -18,7 +18,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/normansinitic",
-            "dc:created": "v1.0-8-g3f1aced"
+            "dc:created": "v1.0-10-g12114c8"
         },
         {
             "rdf:type": "prov:Entity",

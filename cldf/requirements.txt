@@ -10,7 +10,7 @@ decorator==4.4.1
 idna==2.8
 isodate==0.6.0
 jdcal==1.4.1
--e git+https://github.com/cldf-datasets/normansinitic.git@3f1aced15b1e222c6086fbfec53fe7467055683a#egg=lexibank_normansinitic
+-e git+https://github.com/cldf-datasets/normansinitic.git@12114c87a4686e7a5de73ec42f5894674acc5f9c#egg=lexibank_normansinitic
 lingpy==2.6.5
 Markdown==3.1.1
 networkx==2.1
