@@ -13,8 +13,14 @@ else:  # pragma: no cover
 
 tbg = TableGroup.from_file(Path('cldf',
     'StructureDataset-metadata.json').as_posix())
-taxa = {t['ID']: (i, t['Name']) for i, t in
-        enumerate(tbg.tabledict['languages.csv'])}
+existing_taxa = set([row['Language_ID'] for row in
+    tbg.tabledict['values.csv']])
+idx = 0
+taxa = {}
+for t in tbg.tabledict['languages.csv']:
+    if t['ID'] in existing_taxa:
+        taxa[t['ID']] = (idx, t['Name'])
+        idx += 1
 params = {t['ID']: (i, t['Name']) for i, t in
         enumerate(tbg.tabledict['features.csv'])}
 matrix = [[0 for p in params] for t in taxa]
