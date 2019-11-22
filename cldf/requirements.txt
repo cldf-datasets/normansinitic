@@ -31,7 +31,7 @@ pyglottolog==2.2.1
 -e git+https://github.com/lexibank/pylexibank.git@434fa0890ba15e3f1a3ceb446edee0456b020bd2#egg=pylexibank
 pytest==3.6.0
 regex==2018.2.21
-requests==2.19.1
+requests==2.20.0
 rfc3986==1.1.0
 -e git+https://github.com/cldf/segments.git@0332af7a20a49507b294f6ef0a5a183d532dd7f3#egg=segments
 six==1.11.0
