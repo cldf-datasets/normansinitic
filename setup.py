@@ -1,5 +1,4 @@
 from setuptools import setup
-import sys
 import json
 
 
@@ -18,7 +17,10 @@ setup(
     entry_points={
         'lexibank.dataset': [
             'normansinitic=lexibank_normansinitic:Dataset',
-        ]
+        ],
+        'cldfbench.commands': [
+            'normansinitic=commands',
+        ],
     },
     install_requires=[
         'pylexibank>=2.0',
