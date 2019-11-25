@@ -10,14 +10,15 @@ decorator==4.4.1
 idna==2.8
 isodate==0.6.0
 jdcal==1.4.1
--e git+https://github.com/cldf-datasets/normansinitic.git@1fb82e84548c5533c665c216f7d80f718e2c5ed6#egg=lexibank_normansinitic
+-e git+https://github.com/cldf-datasets/normansinitic.git@6590ca842898b58592e4a57bc7719712c78108ab#egg=lexibank_normansinitic
 lingpy==2.6.5
 Markdown==3.1.1
 networkx==2.1
 newick==1.0.0
 numpy==1.17.4
-openpyxl==3.0.1
+openpyxl==2.6.4
 packaging==19.2
+pathlib2==2.3.5
 pluggy==0.13.1
 purl==1.5
 py==1.8.0

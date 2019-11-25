@@ -61,7 +61,7 @@ class Dataset(BaseDataset):
                     Parameter_ID=concept_lookup[wl[idx, 'concept']],
                     Value=wl[idx, 'value'],
                     Form= wl[idx, 'value'],
-                    Source=['Norman2003']
+                    Source=[wl[idx, 'source']]
                 )
             language_table = writer.cldf['LanguageTable']
 
@@ -85,5 +85,5 @@ class Dataset(BaseDataset):
                     'Language_ID': lidx,
                     'Parameter_ID': pidx,
                     'Value': vals['VALUE'],
-                    'Source': ['Norman2003'],
+                    'Source': [vals['SOURCE']],
                 })

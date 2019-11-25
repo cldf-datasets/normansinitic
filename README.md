@@ -23,7 +23,7 @@ Conceptlists in Concepticon:
 - **Varieties:** 11
 - **Concepts:** 40
 - **Lexemes:** 440
-- **Sources:** 1
+- **Sources:** 4
 - **Synonymy:** 1.00
 - **Invalid lexemes:** 0
 - **Tokens:** 1,616

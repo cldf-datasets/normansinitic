@@ -23,13 +23,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/cldf-datasets/normansinitic",
-            "dc:created": "v1.0-14-g1fb82e8"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/lingulist/glottolog-data",
-            "dc:created": "v4.0"
+            "dc:created": "v1.0-19-g6590ca8"
         },
         {
             "rdf:type": "prov:Entity",
@@ -42,12 +36,18 @@
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts/",
             "dc:created": "v1.4"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/lingulist/glottolog-data",
+            "dc:created": "v4.0"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.7.4"
+            "dc:description": "3.5.2"
         },
         {
             "dc:title": "python-packages",
