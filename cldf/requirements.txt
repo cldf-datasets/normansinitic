@@ -13,6 +13,7 @@ idna==2.7
 isodate==0.6.0
 jdcal==1.4.1
 -e git+https://github.com/lexibank/naganorgyalrongic.git@2abb5aeeba0420b71cc2c8bfe4bafcd801e68ba3#egg=lexibank_naganorgyalrongic
+-e git+https://github.com/cldf-datasets/normansinitic.git@1c573a3909a07a54b2b58067fc9a1b1f31f91fc9#egg=lexibank_normansinitic
 lingpy==2.6.5
 Markdown==3.1.1
 networkx==2.1
