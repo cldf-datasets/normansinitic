@@ -1,8 +1,10 @@
+import re
 from pathlib import Path
 from pylexibank.dataset import Dataset as BaseDataset 
 from pylexibank import Concept, Language
 from pylexibank import progressbar
 from cldfbench import CLDFSpec
+from csvw import Datatype
 
 from lingpy import *
 from clldutils.misc import slug
@@ -66,8 +68,18 @@ class Dataset(BaseDataset):
             language_table = writer.cldf['LanguageTable']
 
         with self.cldf_writer(args, cldf_spec='structure', clean=False) as writer:
+            # We share the language table across both CLDF datasets:
             writer.cldf.add_component(language_table)
             writer.objects['LanguageTable'] = self.languages
+
+            # Make the valid codings for the structural parameters explicit:
+            writer.cldf.add_component('CodeTable')
+            # We interpret '±' as missing data, since it means there's not enough data to decide
+            # between the two valid codings. ALternatively, it may be interpreted as "both".
+            writer.cldf['ValueTable', 'value'].null = '±'
+            valid_values = {'+': 'plus', '\u2212': 'minus'}
+            writer.cldf['ValueTable', 'value'].datatype = Datatype.fromvalue(
+                {'base': 'string', 'format': '|'.join(re.escape(c) for c in valid_values)})
 
             pids = set()
             for vals in self.raw_dir.read_csv('structures.tsv', delimiter='\t', dicts=True):
@@ -80,10 +92,15 @@ class Dataset(BaseDataset):
                         'Description': vals['STRUCTURE']
                     })
                     pids.add(pidx)
+                    writer.objects['CodeTable'].extend([
+                        {'ID': '{0}-{1}'.format(pidx, c), 'Name': n, 'Parameter_ID': pidx}
+                        for n, c in valid_values.items()])
                 writer.objects['ValueTable'].append({
                     'ID': idx,
                     'Language_ID': lidx,
                     'Parameter_ID': pidx,
                     'Value': vals['VALUE'],
                     'Source': [vals['SOURCE']],
+                    'Code_ID': '{0}-{1}'.format(pidx, valid_values[vals['VALUE']])
+                    if vals['VALUE'] in valid_values else None,
                 })
