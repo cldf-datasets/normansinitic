@@ -19,7 +19,7 @@ setup(
             'normansinitic=lexibank_normansinitic:Dataset',
         ],
         'cldfbench.commands': [
-            'normansinitic=commands',
+            'normansinitic=normansiniticcommands',
         ],
     },
     install_requires=[
